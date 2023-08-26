@@ -3,6 +3,5 @@
 This repo contains an example of authenticating to a google protected endpoint from nextjs.
 
 [backend](./backend/) contains code for a cloud function that returns random text
-[frontend](./frontend/) contains a NEXTjs App that makes calls to the backend
-
-Provide [.env.development](./frontend/.env.development) with your clerk values to run the app.
+[data.ts](./data.ts) contains the code for an authenticated API endpoint
+[index.tsx](./index.tsx) contains an example of how to invoke the `/api/data` endpoint
